@@ -40,7 +40,11 @@ cd
 echo "PhoneInfoGa has been installed !"
 echo "Testing PhoneInfoGa now !"
 sleep 2s
-cd Phoneinfoga/ && python3 phoneinfoga.py -n +18123014992
+echo "Please enter your phone number below in this format =  +911234567890
+echo "Please make sure you add the country code too !"
+read phone
+echo "Thank you ! Testing phoneinfoga with your phone number now"
+cd Phoneinfoga/ && python3 phoneinfoga.py -n $phone
 echo " "
 echo " "
 echo " "
