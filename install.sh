@@ -31,28 +31,7 @@ echo " "
 echo " "
 echo "Time for tool install initiation -" $(date)
 echo "Tool 1 - PhoneInfoGa - Phone Number OSINT tool" 
-sleep 3s
-cd
-git clone https://github.com/la-deep-web/Phoneinfoga
-cd Phoneinfoga/
-chmod +x *
-cd
-echo "PhoneInfoGa has been installed !"
-echo "Testing PhoneInfoGa now !"
-sleep 2s
-echo "Please enter your phone number below in this format =  +911234567890
-echo "Please make sure you add the country code too !"
-read phone
-echo "Thank you ! Testing phoneinfoga with your phone number now"
-cd Phoneinfoga/ && python3 phoneinfoga.py -n $phone
-echo " "
-echo " "
-echo " "
-echo "PhoneInfoGa is working !"
-echo "Syntax - python3 phoneinfoga.py -n +91XXXXXXXXXX [make sure you add country code]"
-echo " "
-echo " "
-echo " "
+echo "INSTALL FOR TOOL 1 HAS CHANGED AND WILL BE SKIPPING TO TOOL 2"
 sleep 3s
 echo "Tool 2 - Osi.Ig - Instagram OSINT"
 cd
